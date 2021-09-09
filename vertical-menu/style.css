@@ -13,6 +13,8 @@ body {
   line-height: 16px;
   text-transform: uppercase;
   color: #fffdfc;
+
+  background-color: #e5e5e5;
 }
 
 a {
@@ -38,6 +40,8 @@ img {
   width: 1366px;
   margin: 0 auto;
   display: flex;
+
+  background-color: #ffffff;
 }
 
 .main-nav {
@@ -134,4 +138,34 @@ img {
   top: 2px;
   left: -12px;
   transform: translate(-50%);
+}
+
+.promo {
+  padding: 110px 250px;
+  min-height: 365px;
+  background-image: url(img/photo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.promo-text {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  text-align: center;
+  color: #151413;
+}
+
+.promo-text span {
+  display: inline-flex;
+  margin-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #dc5b34;
 }
